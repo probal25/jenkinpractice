@@ -12,4 +12,9 @@ public class UserController {
         return "hello";
     }
 
+    @GetMapping("/new")
+    public String newDeploy() {
+        return "Deploy Change added";
+    }
+
 }
