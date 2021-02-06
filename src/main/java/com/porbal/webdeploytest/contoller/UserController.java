@@ -17,4 +17,6 @@ public class UserController {
         return "Deploy Change added by Razib";
     }
 
+    @GetMapping("/test")
+    public String test() { return "Test added" ;}
 }
