@@ -19,4 +19,7 @@ public class UserController {
 
     @GetMapping("/test")
     public String test() { return "Test added" ;}
+    
+    @GetMapping("/lol")
+    public String test() { return "Lol added" ;}
 }
