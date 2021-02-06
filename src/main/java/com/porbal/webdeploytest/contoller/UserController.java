@@ -21,5 +21,5 @@ public class UserController {
     public String test() { return "Test added" ;}
     
     @GetMapping("/lol")
-    public String test() { return "Lol added" ;}
+    public String testLol() { return "Lol added" ;}
 }
