@@ -27,4 +27,7 @@ public class UserController {
     public String dashboard() {
         return "Dashboard added in Feature_Dash_V1 branch";
     }
+
+    @GetMapping("/dash")
+    public String noDash() {return "not updated";}
 }
