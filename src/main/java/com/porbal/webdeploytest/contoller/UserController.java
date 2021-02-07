@@ -22,4 +22,9 @@ public class UserController {
     
     @GetMapping("/lol")
     public String testLol() { return "Lol added" ;}
+
+    @GetMapping("/dashboard")
+    public String dashboard() {
+        return "Dashboard added in Feature_Dash_V1 branch";
+    }
 }
