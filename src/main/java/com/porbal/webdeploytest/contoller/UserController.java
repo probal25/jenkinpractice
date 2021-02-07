@@ -27,4 +27,7 @@ public class UserController {
     public String dashboard() {
         return "Dashboard added in Feature_Dash_V1 branch";
     }
+
+    @GetMapping("/hi")
+    public String hi() { return "Hi form V2" ;}
 }
