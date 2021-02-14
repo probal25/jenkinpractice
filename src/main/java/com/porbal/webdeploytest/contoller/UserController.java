@@ -25,7 +25,7 @@ public class UserController {
 
     @GetMapping("/dashboard")
     public String dashboard() {
-        return "Dashboard added in Feature_Dash_V1 branch";
+        return "Dashboard added in Feature_Dash_V2 branch";
     }
 
     @GetMapping("/hi")
