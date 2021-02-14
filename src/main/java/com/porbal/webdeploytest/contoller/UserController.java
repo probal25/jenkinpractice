@@ -9,7 +9,7 @@ public class UserController {
 
     @GetMapping("/")
     public String hello() {
-        return "hello";
+        return "hello Darkness my old friend";
     }
 
     @GetMapping("/new")
