@@ -9,7 +9,7 @@ public class UserController {
 
     @GetMapping("/")
     public String hello() {
-        return "hello";
+        return "hello from branch feature/dashboard_v_0_1";
     }
 
     @GetMapping("/new")
