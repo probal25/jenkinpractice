@@ -22,4 +22,7 @@ public class UserController {
     
     @GetMapping("/lol")
     public String testLol() { return "Lol added razib" ;}
+    
+    @GetMapping("/lol2")
+    public String testLol2() { return "Lol added sakib" ;}
 }
